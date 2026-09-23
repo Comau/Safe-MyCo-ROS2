@@ -1,0 +1,12 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 250
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    myco_velocity_controller:
+      type: velocity_controllers/JointGroupVelocityController
+
+myco_velocity_controller:
+  ros__parameters:
+    joints: [myco_joint1, myco_joint2, myco_joint3, myco_joint4, myco_joint5, myco_joint6]
+    interface_name: velocity

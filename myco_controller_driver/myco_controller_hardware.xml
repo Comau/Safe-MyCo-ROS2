@@ -1,0 +1,7 @@
+<library path="myco_controller_hardware">
+  <class name="myco_controller_driver/MycoControllerHardware"
+         type="myco_controller_driver::MycoControllerHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>Myco controller hardware using ports 8893 and 8892.</description>
+  </class>
+</library>
