@@ -85,6 +85,8 @@ fallback. A command-line override applies to the current launch only.
 
 ## 3. Real Controller
 
+Connect the Robot Arm Cable to the Robot port controller and you have to choose one Ethernet Free Port on the Robot Controller to connect with your Linux OS (Real time kernel is not necessary).
+
 Verify network and port access before launch:
 
 ```bash
